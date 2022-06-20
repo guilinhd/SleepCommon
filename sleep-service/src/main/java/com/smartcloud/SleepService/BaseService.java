@@ -21,7 +21,7 @@ public class BaseService<E> extends LinkedList<E> implements IBaseService<E> {
     }
 
     private BaseService<E> _next;
-    public void setNext(IBaseService next) {
+    public void setNext(IBaseService<E> next) {
         _next = (BaseService<E>) next;
     }
 
